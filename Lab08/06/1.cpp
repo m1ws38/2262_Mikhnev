@@ -11,7 +11,6 @@ int main() {
         int counter = 0, limit = 4;
 
         for (const int& i = counter; i < limit; ++counter) {
-            // ++i;  // Если раскомментировать, будет ошибка компиляции.
             std::cout << i << ' ';
         }
     }
